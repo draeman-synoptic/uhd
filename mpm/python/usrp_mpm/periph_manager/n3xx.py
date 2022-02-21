@@ -172,6 +172,7 @@ class n3xx(ZynqComponents, PeriphManagerBase):
         ('internal', 'sfp0'),
         ('external', 'external'),
         ('external', 'internal'),
+        ('external', 'gpsdo'),
         ('gpsdo', 'gpsdo'),
     }
     @classmethod
